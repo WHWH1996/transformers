@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -aP -e  'ssh -p 22' --exclude '.git' --exclude '.gitignore' --exclude '.DS_Store' /Users/wanghao/Documents/论文工作/MLT2.0/transformers/ gpu01:/data/glusterfs/home/wanghao/mlt_v2/transformers/
